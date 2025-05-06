@@ -11,9 +11,6 @@ GOLINT=golint
 GREEN=\033[0;32m
 NC=\033[0m
 
-.PHONY: all
-all: build run
-
 .PHONY: build
 build:
 	@echo "${GREEN}Building the project...${NC}"
